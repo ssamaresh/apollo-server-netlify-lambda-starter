@@ -1,0 +1,30 @@
+{
+  "name": "apollo-server-netlify-lambda-starter",
+  "version": "1.0.0",
+  "description": "A starter project that creates a graphql server and can be deployed to netlify for public access",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon",
+    "bundle": "cpx src/schema.js functions/bundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssamaresh/apollo-server-netlify-lambda-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssamaresh/apollo-server-netlify-lambda-starter/issues"
+  },
+  "homepage": "https://github.com/ssamaresh/apollo-server-netlify-lambda-starter#readme",
+  "dependencies": {
+    "apollo-server": "^2.19.1",
+    "apollo-server-lambda": "^2.19.1"
+  },
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "nodemon": "^2.0.6"
+  }
+}
